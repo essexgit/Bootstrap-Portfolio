@@ -1,0 +1,61 @@
+.h1Styling {
+  background-color: rgb(189, 160, 248);
+  padding: 1rem 1rem 1rem 15vw;
+
+}
+
+/* move Name  background to left edge */
+.container {
+  margin: auto 0 !important;
+  padding-left: 0 !important;
+}
+
+/* keep hamburger to right */
+.navbar {
+  justify-content: right;
+}
+
+#hero {
+  width: 100vw;
+  padding: 0;
+}
+
+#heroBanner {
+  display: none;
+}
+
+#jumboBanner {
+  background-image: url(../images/02-hero-bg.jpg);
+  background-color: #cccccc;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+.all-columns {
+  background-color: pink;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  .all-columns {
+    background-color: red;
+  }
+
+
+
+  /* // Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {}
+}
