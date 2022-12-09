@@ -16,229 +16,168 @@
     <header>
 
       <div class="jumbotron jumbotron-fluid">
-        <div class="container">
+        <div class="container-fluid">
           <!--Name title-->
           <h1 class="position-absolute h1Styling">Ralph Cox</h1>
           <!--End name title-->
           <!--Start navigation-->
-          <nav class="navbar navbar-expand-lg navbar-light ">
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link ">Disabled</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+          <div class="container-fluid moveNav">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link ">Disabled</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
           <!--End navigation-->
         </div>
       </div>
-
-
-
 
     </header><!--End header-->
 
 
     <!--Start banner section-->
     <section id="banner">
-      <!--Add banner image-->
-      <!--Banner image-->
-      <!--End banner image-->
+
       <div class="jumbotron jumbotron-fluid" id="jumboBanner">
         <div class="container-fluid " id="hero">
-          <h1 class="display-4">The Eclectic WebDev Portfolio</h1>
-          <!-- image for accessability but display none -->
+          <h2 class="position-absolute h2Styling">The Eclectic WebDev Portfolio</h2>
+          <!-- image for accessibility but display image displayed via CSS -->
           <img id="heroBanner" height="200" width="100%" src="./images/02-hero-bg.jpg" alt="Diamond woooden fence">
         </div>
       </div>
-
-      <!--Add page title-->
-      <!--Page title-->
-      <!--End page title-->
-      <!--End banner section-->
     </section>
+    <!--End banner section-->
+    <main>
+
+    </main>
+    <!--Start work section-->
+    <!--Start first work row-->
+    <!--Work title-->
+
+    <!-- first card -->
     <div class="container">
       <div class="row">
         <div class="col-12 ">
           <div class="card bg-dark text-white">
-            <img class="card-img" src=".../100px270/#55595c:#373a3c/text:Card image" alt="Card image">
+            <img class="card-img" src="./images/CSS-Cheet-Sheet.png" alt="Cheet sheet screenshot">
             <div class="card-img-overlay">
               <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content.
-                This content is a little bit longer.</p>
-              <p class="card-text">Last updated 3 mins ago</p>
+              <p class="card-text">Snippets of code to copy</p>
             </div>
           </div>
         </div>
+        <!-- end first card -->
+        <!-- second card -->
         <div class="col-12 col-lg-6 all-columns">
           <div class="card bg-dark text-white">
-            <img class="card-img" src=".../100px270/#55595c:#373a3c/text:Card image" alt="Card image">
+            <img class="card-img" src="./images/RefactorSnip.png"
+              alt="Man and woman viewing information on table in meeting">
             <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content.
-                This content is a little bit longer.</p>
-              <p class="card-text">Last updated 3 mins ago</p>
+              <h5 class="card-title">Code Refactoring</h5>
+              <p class="card-text">Consolidating excess classes,<br> adding semantic HTML</p>
             </div>
           </div>
         </div>
+        <!-- end second card -->
+        <!-- third card -->
         <div class="col-12 col-lg-6">
           <div class="card bg-dark text-white">
-            <img class="card-img" src=".../100px270/#55595c:#373a3c/text:Card image" alt="Card image">
+            <img class="card-img" src="./images/Pre-Course-Study-Guide.png" alt="Pre-Course Guide screenshot">
             <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content.
-                This content is a little bit longer.</p>
-              <p class="card-text">Last updated 3 mins ago</p>
+              <h5 class="card-title">Pre-Course Guide</h5>
+              <p class="card-text">Exercise to create basic styled<br> web page in Github Repo</p>
+
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-4">col</div>
+
       </div>
     </div>
-    <!---->
+    <!-- end third card -->
+    <!-- fourth card-->
+    <div class="col-12 col-lg-6">
+      <div class="card bg-dark text-white">
+        <img class="card-img" src="./images/BBH Sheep.svg" alt="BBH sheep used for morphing experiment">
+        <div class="card-img-overlay">
+          <h5 class="card-title">KUTE.js</h5>
+          <p class="card-text">SVG morphing</p>
+        </div>
+      </div>
+    </div>
+    <!-- end fourth card-->
+    <!-- fifth card-->
+    <div class="col-12 col-lg-6">
+      <div class="card bg-dark text-white">
+        <img class="card-img" src="./images/02-run-buddy.jpg"
+          alt="Run Buddy personal trainer website screen shot placeholder">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Project 5</h5>
+          <p class="card-text">Coming soon</p>
+        </div>
+      </div>
+    </div>
+    <!-- end fifth card-->
     <!--Start main content section-->
-    <main>
-      <!--Start about me section-->
-      <!--Start first about me row-->
-      <!--Start about me title-->
-      <!--End about me title-->
-      <!--End first about me row-->
-      <!--Start second about me row-->
-      <!--Start about me content-->
-      <!--First about me content paragraph-->
-      <!--Second about me content paragraph-->
-      <!--End second about me row-->
-      <!--End about me section-->
-      <!---->
-      <!--Start work section-->
-      <!--Start first work row-->
-      <!--Start work title-->
-      <!--Work title-->
-      <!--End work title-->
-      <!--End first work row-->
-      <!---->
-      <!--Start second work row-->
-      <!--Start work figure-->
-      <!--Project one image-->
 
-      <!--Start project one text-->
-      <!--Project one title-->
-      <!--Project one description-->
-      <!--End project one text-->
-      <!--End work figure-->
-      <!--End second work row-->
-      <!---->
-      <!--Start third work row-->
-      <!--Start work figure-->
-      <!--Project two image-->
+    <!--Start about me section-->
+    <!--Start first about me row-->
+    <!--Start about me title-->
+    <!--End about me title-->
+    <!--End first about me row-->
+    <!--Start second about me row-->
+    <!--Start about me content-->
+    <!--First about me content paragraph-->
+    <!--Second about me content paragraph-->
+    <!--End second about me row-->
+    <!--End about me section-->
+    <!---->
 
-      <!--Start project two text-->
-      <!--Project two title-->
-      <!--Project two description-->
-      <!--End project two text-->
-      <!--End work figure-->
-      <!--End third work row-->
-      <!---->
-      <!--Start fourth work row-->
-      <!--Start work figure-->
-      <!--Project three image-->
-      <div class="card bg-dark text-white">
-        <img class="card-img" src=".../100px270/#55595c:#373a3c/text:Card image" alt="Card image">
-        <div class="card-img-overlay">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-            content.
-            This content is a little bit longer.</p>
-          <p class="card-text">Last updated 3 mins ago</p>
-        </div>
-      </div>
-      <!--Start project three text-->
-      <!--Project three title-->
-      <!--Project three description-->
-      <!--End project three text-->
-      <!--End work figure-->
-      <!--End fourth work row-->
-      <!---->
-      <!--Start fifth work row-->
-      <!--Start work figure-->
-      <!--Project four image-->
-      <div class="card bg-dark text-white">
-        <img class="card-img" src=".../100px270/#55595c:#373a3c/text:Card image" alt="Card image">
-        <div class="card-img-overlay">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-            content.
-            This content is a little bit longer.</p>
-          <p class="card-text">Last updated 3 mins ago</p>
-        </div>
-      </div>
-      <!--Start project four text-->
-      <!--Project four title-->
-      <!--Project four description-->
-      <!--End project four text-->
-      <!--End work figure-->
-      <!--End fifth work row-->
-      <!---->
-      <!--Start sixth work row-->
-      <!--Start work figure-->
-      <!--Project five image-->
-      <div class="card bg-dark text-white">
-        <img class="card-img" src=".../100px270/#55595c:#373a3c/text:Card image" alt="Card image">
-        <div class="card-img-overlay">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-            content.
-            This content is a little bit longer.</p>
-          <p class="card-text">Last updated 3 mins ago</p>
-        </div>
-      </div>
-      <!--Start project five text-->
-      <!--Project five title-->
-      <!--Project five description-->
-      <!--End project five text-->
-      <!--End work figure-->
-      <!--End of sixth work row-->
-      <!---->
-      <!--End work section-->
-      <!---->
-      <!--Start contact me section-->
-      <!---->
-      <!--Start first contact me row-->
-      <!--Start contact me title-->
-      <!--End first contact me row-->
-      <!--Start second contact me row-->
-      <!--First contact me nav row-->
-      <!--Phone link-->
-      <!--Email link-->
-      <!--Github link-->
-      <!--End first contact me Nav row-->
-      <!--End second contact me row-->
-      <!--Start third contact me row-->
-      <!--Second contact me Nav row-->
-      <!--LinkedIn link-->
-      <!--Twitter link-->
-      <!--Instagram link-->
-      <!--End second contact me Nav row-->
-      <!--End third contact me row-->
-      <!--End contact me section-->
+
+    <!--Start second work row-->
+
+    <!--End second work row-->
+    <!--Start third work row-->
+
+    <!--End third work row-->
+
+    <Footer>
+
+    </Footer>
+    <!--Start first contact me row-->
+    <!--Start contact me title-->
+    <!--End first contact me row-->
+    <!--Start second contact me row-->
+    <!--First contact me nav row-->
+    <!--Phone link-->
+    <!--Email link-->
+    <!--Github link-->
+    <!--End first contact me Nav row-->
+    <!--End second contact me row-->
+    <!--Start third contact me row-->
+    <!--Second contact me Nav row-->
+    <!--LinkedIn link-->
+    <!--Twitter link-->
+    <!--Instagram link-->
+    <!--End second contact me Nav row-->
+    <!--End third contact me row-->
+    <!--End contact me section-->
 
     </main>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"

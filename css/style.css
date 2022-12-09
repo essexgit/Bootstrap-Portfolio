@@ -1,7 +1,18 @@
+/* remove bottom margin from jumbotron */
+.jumbotron {
+  margin-bottom: 0;
+}
+
 .h1Styling {
   background-color: rgb(189, 160, 248);
   padding: 1rem 1rem 1rem 15vw;
+  left: 0px;
+}
 
+.h2Styling {
+  background-color: rgb(189, 160, 248, 0.5);
+  padding: 0.5rem 10vw 0.5rem 0.5rem;
+  right: 0px;
 }
 
 /* move Name  background to left edge */
@@ -15,15 +26,21 @@
   justify-content: right;
 }
 
+.moveNav {
+  text-align: right;
+}
+
 #hero {
   width: 100vw;
   padding: 0;
 }
 
+/* not displaying image in HTML */
 #heroBanner {
   display: none;
 }
 
+/* display banner via CSS for text control */
 #jumboBanner {
   background-image: url(../images/02-hero-bg.jpg);
   background-color: #cccccc;
@@ -34,12 +51,11 @@
   position: relative;
 }
 
+
 /* // Extra small devices (portrait phones, less than 576px) */
 /* // No media query for `xs` since this is the default in Bootstrap */
 
-.all-columns {
-  background-color: pink;
-}
+.all-columns {}
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {}
@@ -50,9 +66,7 @@
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-  .all-columns {
-    background-color: red;
-  }
+  .all-columns {}
 
 
 
