@@ -22,7 +22,7 @@
           <!--End name title-->
           <!--Start navigation-->
           <div class="container-fluid moveNav">
-            <nav class="navbar navbar-expand-lg navbar-light ">
+            <nav class="navbar navbar-expand-lg navbar-light " id="nav">
               <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -51,12 +51,12 @@
     </header><!--End header-->
     <!--Start banner section-->
     <section id="banner">
-      <div class="jumbotron jumbotron-fluid" id="jumboBanner">
+      <div class="jumbotron jumbotron-fluid" id="jumboBanner " id="bannerPortrait">
         <div class="container-fluid " id="hero">
           <h2 class="position-absolute" id="nameLabel">Ralph Cox</h2>
           <!-- include banner image for accessibility but display image displayed via CSS -->
-          <img id="heroBanner" height="200" width="100%" src="./images/02-hero-bg.jpg" alt="Diamond woooden fence">
-          <img id="portrait" height="180" src="./images/Portrate.webp" alt="Portrait of Ralph Cox looking up">
+          <img id="portrait" height="200" src="./images/Portrate.webp" alt="Portrait of Ralph Cox looking up">
+          <img id="heroBanner" height="200" width="100%" src="./images/02-hero-bg.webp" alt="Diamond woooden fence">
         </div>
       </div>
     </section>
@@ -66,9 +66,9 @@
       <!--Start work section-->
       <section id="work">
         <!--Work title-->
-        <div class="jumbotron jumbotron-fluid">
-          <div class="container">
-            <h2 class="position-absolute h2Styling">Work</h2>
+        <div class="jumbotron jumbotron-fluid sectionTitle">
+          <div class="container-fluid">
+            <h2 class=" h2Styling">Work</h2>
           </div>
         </div>
         <!-- first card -->
@@ -76,9 +76,10 @@
           <div class="container">
             <div class="row">
               <div class="col-12 ">
-                <div class="card ">
+                <div class="card " id="project1Card">
+                  <!-- include project1 image for accessibility but display image displayed via CSS -->
                   <img class="card-img" id="project1" src="./images/CSS-Cheet-Sheet.png" alt="Cheet sheet screenshot">
-                  <div class="card-img-overlay">
+                  <div class="card-img-overlay h5Styling">
                     <h5 class="card-title">CSS Cheet Sheet</h5>
                     <p class="card-text">Snippets of code to copy</p>
                   </div>
@@ -86,12 +87,12 @@
               </div>
               <!-- end first card -->
               <!-- second card -->
-              <div class="col-12 col-lg-6 all-columns">
-                <div class="card h5Styling">
+              <div class="col-12 col-lg-6 ">
+                <div class="card " id="project2Card">
                   <img class="card-img" id="project2" src="./images/RefactorSnip.png"
                     alt="Man and woman viewing information on table in meeting">
-                  <div class="card-img-overlay">
-                    <h5 class="card-title">Code Refactoring</h5>
+                  <div class="card-img-overlay h5Styling">
+                    <h5 class="card-title ">Code Refactoring</h5>
                     <p class="card-text">Consolidating excess classes,<br> adding semantic HTML</p>
                   </div>
                 </div>
@@ -99,11 +100,11 @@
               <!-- end second card -->
               <!-- third card -->
               <div class="col-12 col-lg-6">
-                <div class="card ">
+                <div class="card " id="project3Card">
                   <img class="card-img" id="project3" src="./images/Pre-Course-Study-Guide.png"
                     alt="Pre-Course Guide screenshot">
-                  <div class="card-img-overlay">
-                    <h5 class="card-title h5Styling">Pre-Course Guide</h5>
+                  <div class="card-img-overlay h5Styling">
+                    <h5 class="card-title ">Pre-Course Guide</h5>
                     <p class="card-text">Exercise to create basic styled<br> web page in Github Repo</p>
                   </div>
                 </div>
@@ -113,10 +114,10 @@
           <!-- end third card -->
           <!-- fourth card-->
           <div class="col-12 col-lg-6">
-            <div class="card h5Styling">
-              <img class="card-img" id="project4" src="./images/BBH Sheep.svg"
+            <div class="card" id="project4Card">
+              <img class="card-img" id="project4" src="./images/BBH_Sheep.svg"
                 alt="BBH sheep used for morphing experiment">
-              <div class="card-img-overlay">
+              <div class="card-img-overlay h5Styling">
                 <h5 class="card-title">KUTE.js</h5>
                 <p class="card-text">SVG morphing</p>
               </div>
@@ -125,10 +126,10 @@
           <!-- end fourth card-->
           <!-- fifth card-->
           <div class="col-12 col-lg-6">
-            <div class="card h5Styling">
+            <div class="card " id="project5Card">
               <img class="card-img" id="project5" src="./images/02-run-buddy.jpg"
                 alt="Run Buddy personal trainer website screen shot placeholder">
-              <div class="card-img-overlay">
+              <div class="card-img-overlay h5Styling">
                 <h5 class="card-title">Project 5</h5>
                 <p class="card-text">Coming soon</p>
               </div>
@@ -140,16 +141,16 @@
       <!--Start skills section-->
       <section id="skills">
         <div class="jumbotron jumbotron-fluid">
-          <div class="container">
-            <h2 class="position-absolute h2Styling">Skills</h2>
+          <div class="container-fluid">
+            <h2 class=" h2Styling">Skills</h2>
           </div>
         </div>
       </section>
       <!--Start about me section-->
       <section id="aboutMe">
         <div class="jumbotron jumbotron-fluid">
-          <div class="container">
-            <h2 class="position-absolute h2Styling">About Me</h2>
+          <div class="container-fluid">
+            <h2 class=" h2Styling">About Me</h2>
           </div>
         </div>
         <!--Start about me content-->
@@ -165,8 +166,8 @@
       <!--Start Contact section-->
       <section id="contactMe">
         <div class="jumbotron jumbotron-fluid">
-          <div class="container">
-            <h2 class="position-absolute h2Styling">Contact Me</h2>
+          <div class="container-fluid">
+            <h2 class=" h2Styling">Contact Me</h2>
           </div>
         </div>
         <!--Start first contact me row-->

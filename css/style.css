@@ -5,8 +5,10 @@
 
 .h1Styling {
   background-color: rgb(189, 160, 248);
-  padding: 1rem 1rem 1rem 15vw;
+  padding: 1rem 1rem 1rem 10vw;
   left: 0px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* keeping name to right side */
@@ -15,6 +17,7 @@
   padding: 0.5rem 10vw 0.5rem 0.5rem;
   right: 0px;
   font-size: 2.5rem;
+  margin-top: 1rem;
 }
 
 .h2Styling {
@@ -23,21 +26,21 @@
   left: 0px;
 }
 
+.container-fluid {
+  padding: 0;
+}
+
 .h5Styling {
   background-color: rgb(189, 160, 248, 0.5);
   color: black;
-  display: inline-flex;
+  display: inline-block;
+
 }
 
-.h5Styling ~ p {
-  background-color: rgb(189, 160, 248, 0.5);
-  color: black;
-}
-
-/* move Name  background to left edge */
-.container {
-  margin: auto 0 !important;
-  padding-left: 0 !important;
+/* height to header and navbar */
+header,
+#nav {
+  height: 120px
 }
 
 /* keep hamburger to right */
@@ -57,35 +60,27 @@
   border-color: white !important;
 }
 
+
 #hero {
   width: 100vw;
   padding: 0;
 }
 
-/* not displaying image in HTML */
-#heroBanner {
-  display: none;
-}
-
-/* display banner via CSS for text control */
-#jumboBanner {
-  background-image: url(../images/02-hero-bg.jpg);
-  background-color: #cccccc;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
+/* My image under heading */
 #portrait {
-
   margin-left: 15vw;
+  position: absolute;
+}
+
+.jumbotron {
+  padding: 0 !important;
 }
 
 main {
   background-color: rgb(189, 160, 248, 0.5);
 }
+
+
 
 /* central column container */
 .cards {
@@ -94,24 +89,28 @@ main {
   align-items: center;
 }
 
+.card-img {
+  object-fit: cover;
+}
+
 /* // Extra small devices (portrait phones, less than 576px) */
 /* // No media query for `xs` since this is the default in Bootstrap */
 
-.all-columns {}
+/* .all-columns {} */
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {}
+/* @media (min-width: 576px) {} */
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {}
+/* @media (min-width: 768px) {} */
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+/* @media (min-width: 992px) { */
 
-  .all-columns {}
+/* .all-columns {} */
 
 
 
-  /* // Extra large devices (large desktops, 1200px and up) */
-  @media (min-width: 1200px) {}
-}
+/* // Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) {} */
+/* } */
