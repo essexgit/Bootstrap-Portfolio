@@ -9,10 +9,29 @@
   left: 0px;
 }
 
-.h2Styling {
+/* keeping name to right side */
+#nameLabel {
   background-color: rgb(189, 160, 248, 0.5);
   padding: 0.5rem 10vw 0.5rem 0.5rem;
   right: 0px;
+  font-size: 2.5rem;
+}
+
+.h2Styling {
+  background-color: rgb(189, 160, 248, 0.5);
+  padding: 0.5rem 0.5rem 0.5rem 10vw;
+  left: 0px;
+}
+
+.h5Styling {
+  background-color: rgb(189, 160, 248, 0.5);
+  color: black;
+  display: inline-flex;
+}
+
+.h5Styling ~ p {
+  background-color: rgb(189, 160, 248, 0.5);
+  color: black;
 }
 
 /* move Name  background to left edge */
@@ -26,8 +45,16 @@
   justify-content: right;
 }
 
+.nav-link {
+  color: white !important;
+}
+
 .moveNav {
   text-align: right;
+}
+
+.navbar-toggler {
+  border-color: white !important;
 }
 
 #hero {
@@ -51,6 +78,21 @@
   position: relative;
 }
 
+#portrait {
+
+  margin-left: 15vw;
+}
+
+main {
+  background-color: rgb(189, 160, 248, 0.5);
+}
+
+/* central column container */
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 /* // Extra small devices (portrait phones, less than 576px) */
 /* // No media query for `xs` since this is the default in Bootstrap */
