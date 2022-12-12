@@ -71,25 +71,31 @@
             <h2 class=" h2Styling">Work</h2>
           </div>
         </div>
-        <!-- first card -->
+        <!-- Work cards section -->
         <div class="cards">
+          <!-- first card & first Row -->
           <div class="container">
             <div class="row">
               <div class="col-12 ">
                 <div class="card " id="project1Card">
                   <!-- include project1 image for accessibility but display image displayed via CSS -->
-                  <img class="card-img" id="project1" src="./images/CSS-Cheet-Sheet.png" alt="Cheet sheet screenshot">
+                  <img class="card-img" id="project1" src="./images/CSS-Cheet-Sheet.png" height="300"
+                    alt="Cheat sheet screenshot">
                   <div class="card-img-overlay h5Styling">
-                    <h5 class="card-title">CSS Cheet Sheet</h5>
+                    <h5 class="card-title">CSS Cheat Sheet</h5>
                     <p class="card-text">Snippets of code to copy</p>
                   </div>
                 </div>
               </div>
-              <!-- end first card -->
-              <!-- second card -->
+            </div>
+          </div>
+          <!-- end first card -->
+          <!-- second card & second row-->
+          <div class="container">
+            <div class="row">
               <div class="col-12 col-lg-6 ">
                 <div class="card " id="project2Card">
-                  <img class="card-img" id="project2" src="./images/RefactorSnip.png"
+                  <img class="card-img" id="project2" src="./images/RefactorSnip.png" height="300"
                     alt="Man and woman viewing information on table in meeting">
                   <div class="card-img-overlay h5Styling">
                     <h5 class="card-title ">Code Refactoring</h5>
@@ -101,7 +107,7 @@
               <!-- third card -->
               <div class="col-12 col-lg-6">
                 <div class="card " id="project3Card">
-                  <img class="card-img" id="project3" src="./images/Pre-Course-Study-Guide.png"
+                  <img class="card-img" id="project3" src="./images/Pre-Course-Study-Guide.png" height="300"
                     alt="Pre-Course Guide screenshot">
                   <div class="card-img-overlay h5Styling">
                     <h5 class="card-title ">Pre-Course Guide</h5>
@@ -111,56 +117,144 @@
               </div>
             </div>
           </div>
+
           <!-- end third card -->
-          <!-- fourth card-->
-          <div class="col-12 col-lg-6">
-            <div class="card" id="project4Card">
-              <img class="card-img" id="project4" src="./images/BBH_Sheep.svg"
-                alt="BBH sheep used for morphing experiment">
-              <div class="card-img-overlay h5Styling">
-                <h5 class="card-title">KUTE.js</h5>
-                <p class="card-text">SVG morphing</p>
+          <!-- fourth card and third row-->
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <div class="card" id="project4Card">
+                  <img class="card-img" id="project4" src="./images/BBH_Sheep.png" height="300" width="600"
+                    alt="BBH sheep used for morphing experiment">
+                  <div class="card-img-overlay h5Styling">
+                    <h5 class="card-title">KUTE.js</h5>
+                    <p class="card-text">SVG morphing</p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <!-- end fourth card-->
-          <!-- fifth card-->
-          <div class="col-12 col-lg-6">
-            <div class="card " id="project5Card">
-              <img class="card-img" id="project5" src="./images/02-run-buddy.jpg"
-                alt="Run Buddy personal trainer website screen shot placeholder">
-              <div class="card-img-overlay h5Styling">
-                <h5 class="card-title">Project 5</h5>
-                <p class="card-text">Coming soon</p>
+              <!-- end fourth card-->
+              <!-- fifth card-->
+              <div class="col-12 col-lg-6">
+                <div class="card " id="project5Card">
+                  <img class="card-img" id="project5" src="./images/02-run-buddy.jpg" height="300"
+                    alt="Run Buddy personal trainer website screen shot placeholder">
+                  <div class="card-img-overlay h5Styling">
+                    <h5 class="card-title">Project 5</h5>
+                    <p class="card-text">Coming soon</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           <!-- end fifth card-->
+          <!-- end card section -->
         </div>
       </section>
       <!--Start skills section-->
       <section id="skills">
-        <div class="jumbotron jumbotron-fluid">
-          <div class="container-fluid">
-            <h2 class=" h2Styling">Skills</h2>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-lg-3">
+              <div class="jumbotron jumbotron-fluid">
+                <div class="container-fluid">
+                  <h2 class=" h2Styling">Skills</h2>
+                </div>
+              </div>
+            </div>
+
+            <!--Start skills content-->
+            <!--First skills content paragraph-->
+            <div class="col-12 col-lg-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5>Front-end fundamentals</h5>
+                  <ul>
+                    <li>HTML</li>
+                    <li>JavaScript</li>
+                    <li>CSS</li>
+                    <li>Git</li>
+                    <li>Github</li>
+                    <li>Information
+                      architecture</li>
+                    <li>User experience
+                      design</li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!--Second skills content paragraph-->
+            <div class="col-12 col-lg-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5>Modern front-end frameworks</h5>
+                  <ul>
+                    <li>Structuring,
+                      positioning, and optimisation of web page content</li>
+                    <li>Bootstrap</li>
+                    <li>React.js</li>
+                    <li>Netlify</li>
+                </div>
+              </div>
+            </div>
+            <!--third skills content paragraph-->
+            <div class="col-12 col-lg-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5>Developing with APIs</h5>
+                  <ul>
+                    <li>Javascript framework</li>
+                    <li>DOM manipulation</li>
+                    <li>Web-based
+                      applications</li>
+                    <li>Data extraction and
+                      retrieval</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
       <!--Start about me section-->
       <section id="aboutMe">
-        <div class="jumbotron jumbotron-fluid">
-          <div class="container-fluid">
-            <h2 class=" h2Styling">About Me</h2>
+        <div class="container-fluid">
+          <div class="row">
+            <!-- about me title  -->
+            <div class="col-12 col-lg-4">
+              <div class="jumbotron jumbotron-fluid">
+                <div class="container-fluid">
+                  <h2 class=" h2Styling">About Me</h2>
+                </div>
+              </div>
+            </div>
+            <!--Start about me content-->
+            <!--First about me content paragraph-->
+            <div class="col-12 col-lg-4">
+              <div class="card">
+                <div class="card-body">
+                  I help you connect with customers, clients, supporters and fans by designing and developing
+                  websites
+                  by
+                  showing the
+                  difference you make to them.
+                </div>
+              </div>
+            </div>
+            <!--Second about me content paragraph-->
+            <div class="col-12 col-lg-4">
+              <div class="card">
+                <div class="card-body">
+                  I have followed a simple journey into web design and development via Kitchen Porter, Production
+                  Controller, Salesman,
+                  Actor, and Government Policy Strategist.
+                </div>
+              </div>
+            </div>
+            <!--End about me section-->
           </div>
         </div>
-        <!--Start about me content-->
-        <!--First about me content paragraph-->
-        <!--Second about me content paragraph-->
-        <!--End second about me row-->
-        <!--End about me section-->
       </section>
-
-
     </main>
     <Footer>
       <!--Start Contact section-->
@@ -188,6 +282,7 @@
         <!--End second contact me Nav row-->
         <!--End third contact me row-->
         <!--End contact me section-->
+      </section>
     </Footer>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
