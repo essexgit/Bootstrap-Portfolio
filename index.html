@@ -29,8 +29,8 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#work">Work <span class="sr-only">(current)</span></a>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="#work">Work </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#Skills">Skills</a>
@@ -59,9 +59,8 @@
           <a href="https://www.strategy66.com/">
             <h2 class="position-absolute" id="nameLabel">Ralph Cox</h2>
           </a>
-          <!-- include banner image for accessibility but display image displayed via CSS -->
-          <a href="https://www.strategy66.com/"><img id="portrait" height="200" src="./images/Portrate.webp"
-              alt="Portrait of Ralph Cox looking up"></a>
+          <!-- include banner image for accessibility  -->
+          <img id="portrait" height="200" src="./images/Portrate.webp" alt="Portrait of Ralph Cox looking up">
           <img id="heroBanner" height="200" width="100%" src="./images/02-hero-bg.webp" alt="Diamond woooden fence">
         </div>
       </div>
@@ -84,7 +83,7 @@
             <div class="row">
               <div class="col-12 ">
                 <div class="card " id="project1Card">
-                  <a href="https://essexgit.github.io/CSS_Snippets_Cheetsheet/">
+                  <a class="picHover" href="https://essexgit.github.io/CSS_Snippets_Cheetsheet/">
                     <img class="card-img" id="project1" src="./images/CSS-Cheet-Sheet.png" height="300"
                       alt="Cheat sheet screenshot">
                     <div class="card-img-overlay h5Styling">
@@ -102,7 +101,7 @@
           <div class="row">
             <div class="col-12 col-lg-6 ">
               <div class="card " id="project2Card">
-                <a href="https://essexgit.github.io/Code_refactoring_exercise_EdX_Bootcamp/">
+                <a class="picHover" href="https://essexgit.github.io/Code_refactoring_exercise_EdX_Bootcamp/">
                   <img class="card-img" id="project2" src="./images/RefactorSnip.png" height="300"
                     alt="Man and woman viewing information on table in meeting">
                   <div class="card-img-overlay h5Styling">
@@ -116,7 +115,7 @@
           <!-- third card -->
           <div class="col-12 col-lg-6">
             <div class="card " id="project3Card">
-              <a href="https://essexgit.github.io/prework-study-guide/">
+              <a class="picHover" href="https://essexgit.github.io/prework-study-guide/">
                 <img class="card-img" id="project3" src="./images/Pre-Course-Study-Guide.png" height="300"
                   alt="Pre-Course Guide screenshot">
                 <div class="card-img-overlay h5Styling">
@@ -135,7 +134,7 @@
           <div class="row">
             <div class="col-12 col-lg-6">
               <div class="card" id="project4Card">
-                <a href="https://essexgit.github.io/Kute_blob2sheep/">
+                <a class="picHover" href="https://essexgit.github.io/Kute_blob2sheep/">
                   <img class="card-img" id="project4" src="./images/BBH_Sheep.png" height="300" width="600"
                     alt="BBH sheep used for morphing experiment">
                   <div class="card-img-overlay h5Styling">
@@ -149,16 +148,16 @@
           <!-- fifth card-->
           <div class="col-12 col-lg-6">
             <div class="card " id="project5Card">
-              <a href="#project5">
-                <img class="card-img" id="project5" src="./images/02-run-buddy.jpg" height="300"
-                  alt="Run Buddy personal trainer website screen shot placeholder">
-                <div class="card-img-overlay h5Styling">
-                  <h5 class="card-title">Project 5</h5>
-                  <p class="card-text">Coming soon</p>
-              </a>
+
+              <img class="card-img" id="project5" src="./images/02-run-buddy.jpg" height="300"
+                alt="Run Buddy personal trainer website screen shot placeholder">
+              <div class="card-img-overlay h5Styling">
+                <h5 class="card-title">Project 5</h5>
+                <p class="card-text">Coming soon</p>
+
+              </div>
             </div>
           </div>
-        </div>
         </div>
         </div>
         <!-- end fifth card-->
@@ -291,29 +290,34 @@
             <!--Phone link-->
             <div class="col-12 col-md-6 col-lg-4">
               <div class="card">
-                <div class="card-body">
-                  <a href="tel:+447942286504" class="card-link">Phone</a>
+                <div class="card-body"><button type="button" class="btn">
+                    <a href="tel:+447942286504" class="card-link">Phone</a>
+                  </button>
+
                 </div>
               </div>
             </div>
             <!--Email link-->
             <div class="col-12 col-md-6 col-lg-4">
               <div class="card">
-                <div class="card-body">
-                  <a href="mailto:ralph@strategy66.com?subject=Project%20Portfolio" class="card-link">Email</a>
+                <div class="card-body"><button type="button" class="btn">
+                    <a href="mailto:ralph@strategy66.com?subject=Project%20Portfolio" class="card-link">Email</a>
+
+                  </button>
                 </div>
               </div>
             </div>
             <!--Github link-->
             <div class="col-12 col-md-6 col-lg-4">
               <div class="card">
-                <div class="card-body">
-                  <a href="https://github.com/essexgit" class="card-link">Github</a>
+                <div class="card-body"><button type="button" class="btn">
+                    <a href="https://github.com/essexgit" class="card-link">Github</a>
+
+                  </button>
                 </div>
               </div>
             </div>
           </div>
-        </div>
         </div>
         <!--Second contact me Nav row-->
         <div class="container-fluid">
@@ -321,16 +325,20 @@
             <!--LinkedIn link-->
             <div class="col-12 col-md-6 col-lg-4">
               <div class="card">
-                <div class="card-body">
-                  <a href="https://www.linkedin.com/in/ralph-cox-strategy66/" class="card-link">LinkedIn</a>
+                <div class="card-body"><button type="button" class="btn">
+                    <a href="https://www.linkedin.com/in/ralph-cox-strategy66/" class="card-link">LinkedIn</a>
+
+                  </button>
                 </div>
               </div>
             </div>
             <!--Twitter link-->
             <div class="col-12 col-md-6 col-lg-4">
               <div class="card">
-                <div class="card-body">
-                  <a href="https://twitter.com/strategy66" class="card-link">Twitter</a>
+                <div class="card-body"><button type="button" class="btn">
+                    <a href="https://twitter.com/strategy66" class="card-link">Twitter</a>
+
+                  </button>
                 </div>
               </div>
             </div>
@@ -338,18 +346,18 @@
             <div class="col-12 col-md-6 col-lg-4">
               <div class="card">
                 <div class="card-body">
-                  <a href="https://www.instagram.com/strategy66insta/" class="card-link">Instagram</a>
+                  <button type="button" class="btn">
+                    <a href="https://www.instagram.com/strategy66insta/" class="card-link">Instagram</a>
+                  </button>
                 </div>
               </div>
             </div>
             <!--End second contact me Nav row-->
           </div>
         </div>
-        </div>
         <!--End contact me section-->
       </section>
     </Footer>
-
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"></script>

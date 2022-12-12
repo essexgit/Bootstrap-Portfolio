@@ -9,6 +9,7 @@
   left: 0px;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  border-radius: 0 10px 10px 0;
 }
 
 /* keeping name to right side */
@@ -18,12 +19,20 @@
   right: 0px;
   font-size: 2.5rem;
   margin-top: 70px;
+  border-radius: 10px 0 0 10px;
+}
+
+#nameLabel:hover {
+  scale: 1.05;
+  padding: 0.5rem 10vw 0.5rem 0.5rem;
+  letter-spacing: -0.05rem;
 }
 
 .h2Styling {
   background-color: rgb(189, 160, 248, 0.5);
   padding: 0.5rem 0.5rem 0.5rem 10vw;
   left: 0px;
+
 }
 
 .container-fluid {
@@ -55,8 +64,15 @@ header,
   justify-content: right;
 }
 
+/* nav text and burger set to white  */
 .nav-link {
   color: white !important;
+  transition: scale 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  scale: 1.1;
+  transition: scale 0.3s ease-in-out;
 }
 
 .moveNav {
@@ -105,6 +121,19 @@ footer {
   border: 5px solid rgb(189, 160, 248, 0.5);
 }
 
+/* remove link line */
+.picHover {
+  text-decoration: none !important;
+}
+
+/* hover effect on pictures */
+.h5Styling:hover,
+.card:hover .h5Styling {
+  background: linear-gradient(#fff, rgb(189, 160, 248));
+}
+
+
+
 /* Don't cut head off sheep */
 #project4 {
   object-position: top;
@@ -129,11 +158,33 @@ footer {
   text-align: center;
 }
 
+/* btn surround */
+.btn {
+  border: 2px solid black;
+  background-color: #00000025;
+}
+
+/* button hover shadow */
+.btn:hover {
+  box-shadow: 5px 5px 5px black;
+  border-inline: 3px solid black;
+  background-color: #0000000f;
+
+}
+
 .card-body ul {
   column-count: 2;
   column-gap: 2rem;
   list-style: none;
   padding: 0;
+}
+
+/* link font color */
+
+a:link,
+a:visited,
+a:active {
+  color: black;
 }
 
 @media (min-width: 992px) {
