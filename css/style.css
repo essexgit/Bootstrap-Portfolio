@@ -18,14 +18,12 @@
   right: 0px;
   font-size: 2.5rem;
   margin-top: 70px;
-
 }
 
 .h2Styling {
   background-color: rgb(189, 160, 248, 0.5);
   padding: 0.5rem 0.5rem 0.5rem 10vw;
   left: 0px;
-
 }
 
 .container-fluid {
@@ -41,7 +39,6 @@
   justify-content: flex-start;
   position: absolute;
   z-index: 1;
-
   bottom: 5vh;
   top: 15vh;
   right: 50%;
@@ -86,9 +83,9 @@ header,
   padding: 0 !important;
 }
 
-main {
+main,
+footer {
   background-color: rgb(189, 160, 248, 0.5);
-
 }
 
 /* central column container */
@@ -111,20 +108,25 @@ main {
 /* Don't cut head off sheep */
 #project4 {
   object-position: top;
-
 }
 
-/* align to images */
+/* align to images  and responsive space */
 #aboutMe,
-#skills {
-  padding-right: 10vw;
-  /* display: flex; */
+#skills,
+#contactMe {
+  padding-left: 2vw;
+  padding-right: 8vw;
 }
 
 /* format content, align to images */
 .card-body {
   padding: 5vh 0;
   background-color: rgb(189, 160, 248, 0.5);
+}
+
+/* center links in contact me section */
+#contactMe .card-body {
+  text-align: center;
 }
 
 .card-body ul {
@@ -134,24 +136,11 @@ main {
   padding: 0;
 }
 
-/* // Extra small devices (portrait phones, less than 576px) */
-/* // No media query for `xs` since this is the default in Bootstrap */
+@media (min-width: 992px) {
 
-/* .all-columns {} */
-
-/* // Small devices (landscape phones, 576px and up) */
-/* @media (min-width: 576px) {} */
-
-/* // Medium devices (tablets, 768px and up) */
-/* @media (min-width: 768px) {} */
-
-/* // Large devices (desktops, 992px and up) */
-/* @media (min-width: 992px) { */
-
-/* .all-columns {} */
-
-
-
-/* // Extra large devices (large desktops, 1200px and up) */
-/* @media (min-width: 1200px) {} */
-/* } */
+  #aboutMe,
+  #skills,
+  #contactMe {
+    padding-right: 10vw;
+  }
+}
