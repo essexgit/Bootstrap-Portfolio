@@ -102,6 +102,7 @@ header,
 main,
 footer {
   background-color: rgb(189, 160, 248, 0.5);
+
 }
 
 /* central column container */
@@ -145,6 +146,7 @@ footer {
 #contactMe {
   padding-left: 2vw;
   padding-right: 8vw;
+
 }
 
 /* format content, align to images */
@@ -193,5 +195,6 @@ a:active {
   #skills,
   #contactMe {
     padding-right: 10vw;
+
   }
 }
